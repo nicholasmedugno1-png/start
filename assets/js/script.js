@@ -26,8 +26,13 @@ console.log(`ciao mi chiamo ${NAME} ${LASTNAME}`);
 /* SCRIVI QUI LA TUA RISPOSTA */
 let a = 10;
 let b = 3;
-let sum = a + b;
-console.log(`${a} + ${b} = ${sum}`);
+
+console.log(`${a} + ${b} = ${a+b}`);
+console.log(`${a} - ${b} = ${a-b}`);
+console.log(`${a} x ${b} = ${a*b}`);
+console.log(`${a} : ${b} = ${a/b}`);
+console.log(`${a} % ${b} = ${a%b}`);
+console.log(`${a} ** ${b} = ${a**b}`);
 /* ESERCIZIO 3 — Età nel tempo
    const annoNascita (scegli un anno).
    const annoCorrente = 2026.
